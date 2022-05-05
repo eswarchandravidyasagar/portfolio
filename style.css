@@ -9,27 +9,28 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,9,121,1) 0%, rgba(
 
 #aboutSection{
     margin: auto;
-    padding: 5rem;
+    padding: 0rem;
     
     
 }
 
 #projectsSection{
+   width: 100%;
     margin: auto;
-    padding: 5rem;
+    padding: 0rem;
     
 }
 
 #contact{
     margin: auto;
-    padding: 5rem;
+    padding: 0rem;
 }
 
 .contact-form{
     background: rgb(33, 159, 136);
     margin-top: 10%;
     margin-bottom: 5%;
-    width: 70%;
+    width: 100%;
 }
 .contact-form .form-control{
     border-radius:1rem;
@@ -44,7 +45,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,9,121,1) 0%, rgba(
     transform: rotate(29deg);
 }
 .contact-form form{
-    padding: 14%;
+    padding: 13%;
 }
 .contact-form form .row{
     margin-bottom: -7%;
@@ -74,4 +75,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,9,121,1) 0%, rgba(
     background-color: #0062cc;
     border: none;
     cursor: pointer;
+}
+
+#contactForm{
+    width: 100%;
 }
