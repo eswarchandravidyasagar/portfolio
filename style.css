@@ -1,10 +1,15 @@
 #body{
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,9,121,1) 0%, rgba(173,63,224,1) 0%, rgba(3,153,216,1) 81%, rgba(0,212,255,1) 100%);
+    background-color:#B4E197
 }
 #nstyle{
-    rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,9,121,1) 0%, rgba(173,63,224,1) 0%, rgba(3,153,216,1) 81%, rgba(0,212,255,1) 100%);
+    background-color:#83BD75;
+}
+
+#nav{
+    background-color: #4E944F;
+}
+#footcolor{
+    background-color: #4E944F;
 }
 
 #aboutSection{
@@ -27,7 +32,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,9,121,1) 0%, rgba(
 }
 
 .contact-form{
-    background: rgb(33, 159, 136);
+    background:#E9EFC0;
     margin-top: 10%;
     margin-bottom: 5%;
     width: 100%;
@@ -54,14 +59,14 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,9,121,1) 0%, rgba(
     margin-bottom: 8%;
     margin-top: -10%;
     text-align: center;
-    color: #0062cc;
+    color :#E9EFC0;
 }
 .contact-form .btnContact {
     width: 50%;
     border: none;
     border-radius: 1rem;
     padding: 1.5%;
-    background: #dc3545;
+    background:#83BD75;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
