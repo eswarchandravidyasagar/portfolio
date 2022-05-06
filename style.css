@@ -1,5 +1,6 @@
 #body{
-    background-color:#B4E197
+    background-color:#83BD75;
+    
 }
 #nstyle{
     background-color:#83BD75;
@@ -8,32 +9,36 @@
 #nav{
     background-color: #4E944F;
 }
-#footcolor{
+#foot{
     background-color: #4E944F;
 }
 
 #aboutSection{
-    margin: auto;
-    padding: 0rem;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 20rem;
+    background-color: #dbffc7;
     
     
 }
 
 #projectsSection{
    width: 100%;
-    margin: auto;
-    padding: 0rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #d8f3ff;
     
 }
 
 #contact{
     margin: auto;
-    padding: 0rem;
+    padding: 10px;
+    background-color: rgb(63, 220, 255);
 }
 
 .contact-form{
     background:#E9EFC0;
-    margin-top: 10%;
+    margin-top: 0;
     margin-bottom: 5%;
     width: 100%;
 }
@@ -84,4 +89,8 @@
 
 #contactForm{
     width: 100%;
+}
+
+#about{
+    background-color: #d8ead8;
 }
