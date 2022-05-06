@@ -1,23 +1,23 @@
 #body{
-    background-color:#83BD75;
+    background-color:#ffc100;
     
 }
 #nstyle{
-    background-color:#83BD75;
+    background-color:#e6ebed;
 }
 
 #nav{
-    background-color: #4E944F;
+    background-color: #e6ebed;
 }
 #foot{
-    background-color: #4E944F;
+    background-color: #063852;
 }
 
 #aboutSection{
     width: 100%;
     margin: 2rem auto;
     padding: 2rem;
-    background-color: #dbffc7;
+    background-color: #1e9adf;
     
     
 }
@@ -26,7 +26,7 @@
    width: 100%;
     margin: 2rem auto;
     padding: 2rem;
-    background-color: #d8f3ff;
+    background-color: #636466;
     
 }
 
@@ -37,7 +37,7 @@
 }
 
 .contact-form{
-    background:#E9EFC0;
+    background:#063852;
     margin-top: 0;
     margin-bottom: 5%;
     width: 100%;
@@ -92,5 +92,13 @@
 }
 
 #about{
-    background-color: #d8ead8;
+    background-color:#1e9adf;
+}
+#contactForm{
+    margin: 10px;
+    padding: 2rem;
+}
+.form-group{
+    padding: 10px;
+    margin: 20px;
 }
