@@ -12,7 +12,7 @@
 </head>
 <body id="body">
 
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-md fixed-top" id="nav">
     <!-- Brand -->
     <a class="navbar-brand" href="#">Eswar Attuluri</a>
   
@@ -25,13 +25,13 @@
     <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#aboutSection">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#projectSection">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -39,10 +39,11 @@
 
   
   
-<section id="aboutSection" class="container ">
+<section id="aboutSection" class="container">
+  <div class="d-flex flex-wrap justify-content-around">
   <h4 class="d-flex justify-content-center">About</h4>
   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus tempore pariatur dolor qui eligendi est, perspiciatis quis voluptates incidunt voluptas labore eius mollitia numquam magni autem, assumenda quod harum nostrum.lorem</p>
-  
+</div>
 </section>
       
 <section id="projectsSection" class="container">
@@ -54,7 +55,7 @@
       <div class="card-body">
         <h5 class="card-title">Score keeper</h5>
         <p class="card-text">Build using HTML,CSS,BULMA,Javascript</p>
-        <a href="https://github.com/eswarchandravidyasagar/Newscorekeeper" class="btn btn-primary">Code</a>
+        <a href="https://eswarchandravidyasagar.github.io/Newscorekeeper/" class="btn btn-primary">Live</a>
       </div>
     </div>
     
@@ -66,7 +67,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="https://github.com/eswarchandravidyasagar/dicegame" class="btn btn-primary">Code</a>
+        <a href="https://eswarchandravidyasagar.github.io/dicegame/" class="btn btn-primary">Live</a>
       </div>
     </div>
     
@@ -102,66 +103,60 @@
   </p>
 </section>
 
-<section id="contact" class="container ">
-  
-  <div class="container contact-form">
-    <div class="contact-image">
-        <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
 
-      
-    </div>
-    <form method="post" action="mailto:eswarchandra111@gmail.com" enctype="text/plain">
-        <h3>Contact me</h3>
-       <div class="row" id="contactForm">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
-                </div>
-                <div class="form-group">
-                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
-                </div>
-                <div class="form-group">
-                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
-                </div>
-                <div class="form-group">
+
+
+<section id="contact" class="container ">
+
+
+
+
+  <div class=" d-flex justify-content-center">
+    <div class="card" style="width: 100%;">
+      <div class="container contact-form">
+        <div class="contact-image">
+            <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+    
+          
+        </div>
+        <form method="post" action="mailto:eswarchandra111@gmail.com" enctype="text/plain">
+            <h3>Contact me</h3>
+           <div class="row" id="contactForm">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <div class="form-group">
+                          <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                      </div>
+                  </div>
+                  <div class="form-group">
                     <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
                 </div>
-            </div>
-        </div>
-    </form>
-</div>
+                
 
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+                
+            </div>
+        </form>
     </div>
-  </div>
-</div>
-</div>
+
+     </div>
+    </div>
 </section>
      
     <script src="app.js"></script>
     <footer class="bg-light text-center text-lg-start" id="footcolor">
       
-      <div class="text-center p-3" style="background-color: #636466;" id="footer">
+      <div class="text-center p-3" style="background-color: #FFF8F0 ;" id="footer">
         ©2022 Copyright: Eswar Attuluri
         
       </div>

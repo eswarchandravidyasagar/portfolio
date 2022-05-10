@@ -2,22 +2,22 @@
     background-color:#fff
     
 }
-#nstyle{
-    background-color:#47b7e3;
+#navtyle{
+    background-color:#392F5A;
 }
 
 #nav{
     background-color: #ffffff;
 }
 #foot{
-    background-color: #063852;
+    background-color: #F4D06F;
 }
 
 #aboutSection{
     width: 100%;
     margin: 2rem auto;
-    padding: 2rem;
-    background-color:#eff2f5;
+    padding: 6rem;
+    background-color:#F4D06F;
     
     
 }
@@ -25,132 +25,15 @@
 #projectsSection{
    width: 100%;
     margin: 2rem auto;
-    padding: 2rem;
-    background-color: #eff2f5;
+    padding: 6rem;
+    background-color: #FF9933;
     
 }
 
 #contact{
     margin: auto;
-    padding: 10px;
+    padding: 0px;
     width: 100%;
     
 }
 
-.contact-form{
-    background:#eff2f5;
-    margin-top: 0;
-    margin-bottom: 5%;
-    width: 100%;
-}
-.contact-form .form-control{
-    border-radius:1rem;
-}
-.contact-image{
-    text-align: center;
-}
-.contact-image img{
-    border-radius: 6rem;
-    width: 11%;
-    margin-top: -3%;
-    transform: rotate(29deg);
-}
-.contact-form form{
-    padding: 13%;
-}
-.contact-form form .row{
-    margin-bottom: -7%;
-}
-.contact-form h3{
-    margin-bottom: 8%;
-    margin-top: -10%;
-    text-align: center;
-    color :#002c59;
-}
-.contact-form .btnContact {
-    width: 50%;
-    border: none;
-    border-radius: 1rem;
-    padding: 1.5%;
-    background:#83BD75;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-}
-.btnContactSubmit
-{
-    width: 50%;
-    border-radius: 1rem;
-    padding: 10%;
-    color: #fff;
-    background-color: #0062cc;
-    border: none;
-    cursor: pointer;
-}
-
-#contactForm{
-    width: 100%;
-}
-
-#about{
-    background-color:#1e9adf;
-}
-#contactForm{
-    margin: 10px;
-    padding: 2rem;
-}
-.form-group{
-    padding: 10px;
-    margin: 20px;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .menuItem {
-    display: block;
-    margin: 2rem 4rem;
-    font-size: 1.8rem;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .menuItem:hover {
-    text-decoration: underline;
-  }
-  
-  .hamburger {
-    position: fixed;
-    z-index: 100;
-    top: 1rem;
-    right: 1rem;
-    padding: 4px;
-    border: black solid 1px;
-    background: white;
-    cursor: pointer;
-  }
-  
-  .closeIcon {
-    display: none;
-  }
-  
-  .menu {
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    background: black;
-    color: white;
-    list-style: none;
-    padding-top: 4rem;
-  }
-  
-  .showMenu {
-    transform: translateY(0);
-  }
