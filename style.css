@@ -46,8 +46,10 @@
     
 }
 .form-group{
-    padding: 10px;
-    float: none;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    
 }
 
 #experience{
@@ -58,9 +60,19 @@
     color: #fff;
 }
 .navbar-brand{
+    display: flex;
+    align-items: center;
     font-family:'Pacifico', cursive;
     font-weight: bold;
     font-style: oblique;
     font-size: 20px;
     
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.navbar-toggler-icon{
+    color: black;
+background-color: #392F5A;
 }
